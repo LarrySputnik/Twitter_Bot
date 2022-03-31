@@ -25,8 +25,9 @@ def new_tweet(text):
 
 tweet_list = []
 while True:
-    tweet_timer = randint(3500, 21600)
-    time.sleep(tweet_timer)
+    # tweet_timer = randint(3500, 21600)
+    # time.sleep(tweet_timer)
+    time.sleep(105)
     with open("trump_quotes.txt", "r") as file:
         number_of_quotes = file.readlines()
         random_quote = choice(number_of_quotes)
