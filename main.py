@@ -35,7 +35,6 @@ while True:
     if random_quote not in tweet_list and len(random_quote) <= 280:
         tweet_list.append(random_quote)
         final_tweet = "".join(tweet_list[-1])
-        print(final_tweet)
         new_tweet(final_tweet)
     else:
         pass
