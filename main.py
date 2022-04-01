@@ -40,5 +40,7 @@ while True:
         pass
 
     if len(tweet_list) == len(number_of_quotes):
+        # for tweet in tweet_list:
+        #     count = tweet_list.count(tweet)
+        #     print(count)
         tweet_list.clear()
-
