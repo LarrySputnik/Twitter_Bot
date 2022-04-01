@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+# MAKE CHANGES TO THE PROJECT ON THIS FILE
 def get_client():
     """Activate sputnik to make requests to the api"""
     sputnik = tweepy.Client(
