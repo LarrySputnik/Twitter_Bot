@@ -34,7 +34,6 @@ def reply_to_tweet(tweet_id_number, text):
     sputnik.create_tweet(in_reply_to_tweet_id=tweet_id_number, text=text)
 
 
-# ###### WARNING!! ADDED EXCLUDE PARAM, NEED TO TEST. WARNING!! ######
 def get_last_tweet_id(user_id):
     """Return the last tweet id from a chosen user as an integer, user_id is the user int id number"""
     last_tweet = sputnik.get_users_tweets(user_id, exclude=["retweets", "replies"])
@@ -43,7 +42,6 @@ def get_last_tweet_id(user_id):
     return result
 
 
-# User screen name and int id number, only used for quick copy, paste
 users = {
     "donlemon": 16051471,
     "RepAdamSchiff": 29501253,
