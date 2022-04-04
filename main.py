@@ -45,9 +45,9 @@ def get_last_tweet_id(user_id):
 users = {
     "donlemon": 16051471,
     "RepAdamSchiff": 29501253,
-    "WendyRogersAZ": 96502351,
-    "laurenboebert": 1201670995435646976,
-    "JackPosobiec": 592730371
+    "JoeBiden": 939091,
+    "MSNBC": 2836421,
+    "cnn": 759251
 }
 
 # Activate Sputnik
