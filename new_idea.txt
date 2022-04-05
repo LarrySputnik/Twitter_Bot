@@ -1,0 +1,14 @@
+
+# New Idea for the bot
+# "Get insulted by Donald Trump"
+# Tronald Dump API
+
+# ask someone to insult Donald, when they do,
+# get their username, and fill it in as the personalized insult
+# retweet it to them and tweet it to the page with a "Donald Says - insult"
+
+Tweet says - Do you want to get insulted by Donald Trump? Comment on this tweet to see what the ol man think of you.
+when they comment
+
+reply to the comment with - "Donald says <username><quote>"
+retweet the last insult to Larry's page
